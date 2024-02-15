@@ -1,0 +1,55 @@
+/* --------- GLOBALES --------- */
+body{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* --------- HEADER --------- */
+.header{
+    background-color: #BC1823;
+    padding: 1rem;
+}
+
+.contenido-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo{
+    height: 4rem;
+}
+
+.logotipo-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.header-titulo{
+    color: white;
+    font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+.nav-item{
+    color: white;
+    font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+
+/* --------- MAIN --------- */
+.main{
+    background-image: url("imagenes/fondo-ajedrez.jpeg");
+    background-position: center;
+    height: 80rem;
+ 
+}
