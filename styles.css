@@ -104,7 +104,7 @@ body{
 
 .contenedor-principal{
     font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
+
 }
 
 .contenedor-secundario{
@@ -118,7 +118,7 @@ body{
 
 .titulo-index{
     text-transform: uppercase;
-    font-weight: bolder;
+
 }
 
 .titulo-noticia{
