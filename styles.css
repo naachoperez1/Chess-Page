@@ -87,15 +87,38 @@ body{
 
 /* --------- MAIN --------- */
 .main{
-    padding: 2rem 0;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+    background-color: white;
+    background-image: url(imagenes/fondo-ajedrez.jpeg);
+    padding: 2rem;
 }
 
-.noticias-contenedor{
-    width: 60%;
+.contenedor-main{
+    padding: 0 3rem;
+    display: flex;
+    gap: 4rem;
+    
+    @media (max-width : 1400px ) {
+        display: block;
+    }
+}
 
+.contenedor-principal{
+    font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.contenedor-secundario{
+    padding: 1rem ;
+    margin-top: 5rem;
+    width: 70%;
+    height: fit-content;
+    border: solid black 1px;
+    font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-index{
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .titulo-noticia{
