@@ -17,6 +17,7 @@ body{
 .header{
     background-color: #BC1823;
     padding: 1rem;
+    border: solid black 2px;
 }
 
 .contenido-header{
@@ -39,6 +40,7 @@ body{
 }
 
 .header-titulo{
+    text-shadow: 2px 2px #000000;
     color: white;
     font-family: 'Kanit', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
@@ -69,6 +71,11 @@ body{
     }
 }
 
+.seccion-actual{
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
 .nav-item-contenedor{
     display: flex;
     flex-direction: row;
@@ -87,8 +94,7 @@ body{
 
 /* --------- MAIN --------- */
 .main{
-    background-color: white;
-    background-image: url(imagenes/fondo-ajedrez.jpeg);
+    background-color: rgb(255, 246, 246);
     padding: 2rem;
 }
 
@@ -109,6 +115,7 @@ body{
 
 .contenedor-secundario{
     padding: 1rem ;
+    background-color: rgb(255, 255, 255);
     margin-top: 5rem;
     width: 70%;
     height: fit-content;
@@ -134,14 +141,12 @@ body{
     height: 80%;
 }
 
-.seccion-actual{
-    font-weight: bold;
-    text-decoration: underline;
-}
 
 
 /* FOOTER */
 .footer{
+    text-shadow: 2px 2px #000000;
+    border: solid black 2px;
     text-align: center;
     padding: 1rem 0;
     color: white;
